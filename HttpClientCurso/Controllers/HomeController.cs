@@ -15,7 +15,7 @@ namespace HttpClientCurso.Controllers
     public class HomeController : Controller
     {
 
-        Uri baseUrl = new Uri("https://localhost:7100/api");
+        Uri baseUrl = new Uri("https://localhost:7061/api");
 
         private readonly HttpClient _httpClient;
         private readonly ISessaoInterface _sessaoInterface;
